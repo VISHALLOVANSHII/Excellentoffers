@@ -39,9 +39,9 @@ const CreditScoreImprovement = () => {
           <h3 className="text-lg font-bold">Dovly AI </h3>
         </div>{" "}
         <img
-          src="https://assets-global.website-files.com/5fcfaf99d27f7a196ea0487f/6005e51715382d02c714c923_dovly-logo-img.png"
+          src="https://www.dovly.com/wp-content/themes/yootheme/cache/ac/Dovly_AI_logo_Black-ac052202.png"
           alt=""
-          className="w-40 h-25"
+          className="w-40 h-15"
         />
         <p>
           Dovly AI is shaking up the credit game with an all-in-one AI credit
@@ -61,11 +61,29 @@ const CreditScoreImprovement = () => {
         </Link>
       </div>
       {/*  Card 3 */}
-      {/* <div className="bg-white border rounded-lg p-4">
-       <h3 className="text-lg font-bold mb-2">Credit Score Improvement</h3>
-       <p>Details about the best Credit Score Improvement plans...</p>
-       <a href="#" className="block bg-blue-600 text-white text-center py-2 rounded mt-4">Join Now</a>
-     </div> */}
+       <div className="bg-white border rounded-lg p-4">
+        <div className="flex items-center space-x-3 mb-2">
+          <div className="w-6 h-6 flex items-center justify-center rounded-full bg-blue-600 text-white text-sm font-medium">
+            3
+          </div>
+          <h3 className="text-lg font-bold">Kikoff </h3>
+        </div>{" "}
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQafsAAEdnj5CRs-fXOct5OSIkrFY2fKA0IibTyCD34nEnlnET"
+          alt=""
+          className="w-40 h-25"
+        />
+        <p>
+          Kikoff helps build credit with no credit check, no interest, and no predatory fees. It builds payment history and reports to credit bureaus.
+        </p>
+        <Link
+          to="https://amol8a1p.com/?E=Ud0cIARHabGGlA%2fZi5%2fzjC9GOm3iJU0T&s1="
+          className="block bg-blue-600 text-white text-center py-2 rounded mt-4"
+        >
+          {" "}
+          Join Now
+        </Link>
+      </div>
       {/*  Card 4*/}
       {/* <div className="bg-white border rounded-lg p-4">
        <h3 className="text-lg font-bold mb-2">Credit Score Improvement</h3>

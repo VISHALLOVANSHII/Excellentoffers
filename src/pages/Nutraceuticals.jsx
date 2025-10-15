@@ -50,7 +50,7 @@ const Nutraceuticals = () => {
         
        {/* <h3 className="text-lg font-bold mb-2">Instaflex</h3> */}
         <img
-          src="https://ww1.prweb.com/prfiles/2013/03/11/10915777/Instaflex%20Logo-blue.jpg"
+          src="https://nickpaivadesign.wordpress.com/wp-content/uploads/2024/02/instaflex-logo-2.png"
           alt=""
           className="w-40 h-25"
         />
@@ -62,17 +62,55 @@ const Nutraceuticals = () => {
           Join Now
         </Link>     </div>
       {/*  Card 3 */}
-      {/* <div className="bg-white border rounded-lg p-4">
-       <h3 className="text-lg font-bold mb-2">Weight Loss Offer</h3>
-       <p>Details about the best weight loss plans...</p>
-       <a href="#" className="block bg-blue-600 text-white text-center py-2 rounded mt-4">Join Now</a>
-     </div> */}
+       <div className="bg-white border rounded-lg p-4">
+
+
+  <div className="flex items-center space-x-3 mb-2">
+  <div className="w-6 h-6 flex items-center justify-center rounded-full bg-blue-600 text-white text-sm font-medium">
+    3
+  </div>
+  <h3 className="text-lg font-bold">Montezuma's Secret - Male Enhancement</h3>
+</div>
+
+        
+       {/* <h3 className="text-lg font-bold mb-2">Instaflex</h3> */}
+        <img
+          src="https://supernaturalman.com/cdn/shop/files/SN_MontezumasSecret_2022_60ct.jpg?v=1691607151"
+          alt=""
+          className="w-40 h-35"
+        />
+       <p>Unlock your potential with Montezuma's Secret! Are you ready to experience enhanced vitality and renewed confidence? Discover Montezuma's Secret, the ultimate male enhancement supplement designed to boost performance, stamina, and overall well-being. Don't let age slow you down. Take control of your life and feel the difference with Montezuma's Secret. Join thousands of satisfied men who have unlocked their potential.</p>
+  <Link
+          to="http://amol8a1p.com/?E=Ud0cIARHabFdzA%2fp8uIJqy9GOm3iJU0T&s1="
+          className="block bg-blue-600 text-white text-center py-2 rounded mt-4"
+        >
+          Join Now
+        </Link>     </div>
       {/*  Card 4*/}
-      {/* <div className="bg-white border rounded-lg p-4">
-       <h3 className="text-lg font-bold mb-2">Weight Loss Offer</h3>
-       <p>Details about the best weight loss plans...</p>
-       <a href="#" className="block bg-blue-600 text-white text-center py-2 rounded mt-4">Join Now</a>
-     </div> */}
+       <div className="bg-white border rounded-lg p-4">
+
+
+  <div className="flex items-center space-x-3 mb-2">
+  <div className="w-6 h-6 flex items-center justify-center rounded-full bg-blue-600 text-white text-sm font-medium">
+    4
+  </div>
+  <h3 className="text-lg font-bold">Nugenix Total-T</h3>
+</div>
+
+        
+       {/* <h3 className="text-lg font-bold mb-2">Instaflex</h3> */}
+        <img
+          src="https://images.hive.blog/0x0/https://steemitimages.com/DQmQRYYcsM8EU56Z4GhJ78jE2ReJanuX3oDteKF86j7ugbN/Nugenix_Testosterone_Bottle.png"
+          alt=""
+          className="w-40 h-45"
+        />
+       <p>Feel stronger, perform better. Ready to reclaim your edge? Nugenix Total-T is formulated to help men over 40 boost free testosterone levels, increase energy, and enhance performance. Thousands of men are already seeing the difference-and now it's your turn.</p>
+  <Link
+          to="https://amol8a1p.com/?E=mggbLqPhDiOm7S7zPune7C9GOm3iJU0T&s1="
+          className="block bg-blue-600 text-white text-center py-2 rounded mt-4"
+        >
+          Join Now
+        </Link>     </div>
     </>
   );
 };

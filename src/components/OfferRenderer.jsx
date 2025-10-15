@@ -8,13 +8,12 @@ import Government from "../pages/Government";
 import DebtRelief from "../pages/DebtRelief";
 import Seniors from "../pages/Seniors";
 import CreditCardSection from "../pages/CreditCardSection";
+import HealthWellness from "../pages/HealthWellness";
 
 const OfferRenderer = ({ selected }) => {
   switch (selected) {
-
     case "Credit Cards":
-      return <CreditCardSection/>
-;
+      return <CreditCardSection />;
     case "Government Programs":
       return <Government />;
     case "Cybersecurity":
@@ -25,8 +24,12 @@ const OfferRenderer = ({ selected }) => {
 
     case "Weight loss":
       return <WeightLoss />;
-    case " Debt Relief":
+    case "Debt Relief":
       return <DebtRelief />;
+
+    case "Health & Wellness":
+      return <HealthWellness />;
+
     case "Nutraceuticals":
       return <Nutraceuticals />;
     case "Credit Score Monitoring":

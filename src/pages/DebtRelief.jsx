@@ -21,7 +21,7 @@ const DebtRelief = () => {
           to=""
           className="block bg-blue-600 text-white text-center py-2 rounded mt-4"
         >
-      Click To Call
+          Click To Call
         </Link>
       </div>
     </>
