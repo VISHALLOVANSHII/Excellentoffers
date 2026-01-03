@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import free from "/src/images/free360.jpeg";
 import myscore from "/src/images/myscore.jpeg";
-
+import creditiq from "/src/images/creditscoreiq.jpeg";
 const CreditScoreMonitoring = () => {
   return (
     <>
@@ -23,7 +23,7 @@ const CreditScoreMonitoring = () => {
 </div>
 
         <img
-          src="https://iqcreditscore.com/assets/images/image43.jpg?v=c6f40079"
+          src={creditiq}
           alt=""
           className="w-40 h-25"
         />

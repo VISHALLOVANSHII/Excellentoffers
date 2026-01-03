@@ -9,10 +9,11 @@ import DebtRelief from "../pages/DebtRelief";
 import Seniors from "../pages/Seniors";
 import CreditCardSection from "../pages/CreditCardSection";
 import HealthWellness from "../pages/HealthWellness";
+import PersonalLoan from "../pages/PersonalLoan";
 
 const OfferRenderer = ({ selected }) => {
   switch (selected) {
-    case "Credit Cards":
+    case "Bankrate Credit Cards":
       return <CreditCardSection />;
     case "Government Programs":
       return <Government />;
@@ -32,6 +33,8 @@ const OfferRenderer = ({ selected }) => {
 
     case "Nutraceuticals":
       return <Nutraceuticals />;
+    case "Personal Loan":
+      return <PersonalLoan />;
     case "Credit Score Monitoring":
       return <CreditScoreMonitoring />;
     case "Credit Score Improvement":

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import OfferRenderer from "../components/OfferRenderer.jsx";
 
 const topPicks = [
-  "Credit Cards",
+  "Bankrate Credit Cards",
   "Credit Score Improvement",
   "Credit Score Monitoring",
   "Cybersecurity",
@@ -10,6 +10,7 @@ const topPicks = [
   "Government Programs",
   "Health & Wellness",
   "Nutraceuticals",
+  "Personal Loan",
   "Seniors",
   "Weight loss",
 ];

@@ -54,7 +54,7 @@ const Weightloss = () => {
          Meal delivery plans – New, convenient, and fits in with your weight loss goals. 2-week or 4-week options for deliveries.
         </p>
         <Link
-          to="https://noklnk.com/x/6016375?subid1="
+          to="https://amol8a1p.com/?E=YecseDisQq%2FoqIE6%2BYxVwS9GOm3iJU0T&s1="
           className="block bg-blue-600 text-white text-center py-2 rounded mt-4"
         >
           Join Now
