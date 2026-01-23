@@ -1,10 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const Government = () => {
   return (
     <>
-      <div className="bg-white border rounded-lg p-4">
+      {/* <div className="bg-white border rounded-lg p-4">
         <h3 className="text-lg font-bold mb-2">Citizens Disability</h3>
         <img
           src="https://i.vimeocdn.com/player/373343?sig=f51d8e14821b4d2b76871e5f6854cedfcbc9afd5fac3afac01fc1db41831fbd4&v=1"
@@ -24,7 +23,7 @@ const Government = () => {
         >
           Join Now
         </Link>
-      </div>
+      </div> */}
     </>
   );
 };

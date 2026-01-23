@@ -10,9 +10,16 @@ import Seniors from "../pages/Seniors";
 import CreditCardSection from "../pages/CreditCardSection";
 import HealthWellness from "../pages/HealthWellness";
 import PersonalLoan from "../pages/PersonalLoan";
+import MaleEnhashment from "../pages/MaleEnhashment";
+import GPL from "../pages/GPL";
+import BankAccount from "../pages/BankAccount";
 
 const OfferRenderer = ({ selected }) => {
   switch (selected) {
+
+    case "Online Banking":
+      return <BankAccount />;
+
     case "Bankrate Credit Cards":
       return <CreditCardSection />;
     case "Government Programs":
@@ -28,8 +35,14 @@ const OfferRenderer = ({ selected }) => {
     case "Debt Relief":
       return <DebtRelief />;
 
+    case "GLP-1 Medications":
+      return <GPL />;
+
     case "Health & Wellness":
       return <HealthWellness />;
+
+    case "Male Enhancement":
+      return <MaleEnhashment />;
 
     case "Nutraceuticals":
       return <Nutraceuticals />;

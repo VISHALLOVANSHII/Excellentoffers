@@ -22,7 +22,7 @@ const About = () => {
         About <span className="text-indigo-600">Our Company</span>
       </h2>
       <p className="text-gray-700">
-      Welcome to ExcellentOffers! We’re a destination site that curates and reviews top tier offers in numerous verticals ranging from “credit monitoring”, “nutraceuticals”, “identity theft”, “credit score improvement”, “weight loss“, “cybersecurity”, and many others. We do the legwork to review and approve top tier services so you don’t. This way when you join one of our third-party programs, you’ll know you’re getting true value for your investment! Check out our “spotlight pages” that categorize products by vertical and see for yourself!”
+      Welcome to ExcellentOffers! We’re a destination site that curates and reviews top tier offers in numerous verticals ranging from credit monitoring, nutraceuticals, identity theft, credit score improvement, weight loss, cybersecurity, and many others. We do the legwork to review and approve top tier services so you don’t. This way when you join one of our third-party programs, you’ll know you’re getting true value for your investment! Check out our spotlight pages that categorize products by vertical and see for yourself!
       </p>
     </div>
   </div>
