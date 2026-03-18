@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 const CreditScoreImprovement = () => {
   return (
@@ -30,67 +31,12 @@ const CreditScoreImprovement = () => {
           Join Now
         </Link>
       </div>
-      {/*  Card 2 */}
-      {/* <div className="bg-white border rounded-lg p-4">
-        <div className="flex items-center space-x-3 mb-2">
-          <div className="w-6 h-6 flex items-center justify-center rounded-full bg-blue-600 text-white text-sm font-medium">
-            2
-          </div>
-          <h3 className="text-lg font-bold">Dovly AI </h3>
-        </div>{" "}
-        <img
-          src="https://www.dovly.com/wp-content/themes/yootheme/cache/ac/Dovly_AI_logo_Black-ac052202.png"
-          alt=""
-          className="w-40 h-15"
-        />
-        <p>
-          Dovly AI is shaking up the credit game with an all-in-one AI credit
-          engine that builds, fixes and protects credit, empowering all
-          Americans to boom financially - 100% free. Dovly AI’s mission is to
-          tear down the walls to financial freedom. With AI-powered tools, Dovly
-          AI has helped its members boost their credit scores by over 14,000,000
-          points—helping them hit life goals like buying a car or getting their
-          dream home sooner than expected.
-        </p>
-        <Link
-          to="https://www.pav04trk.com/M81HLR/Z7D12B/?source_id=harman_interactive_marketing&sub1=yourSUB1&sub2=yourSUB2&sub3=yourSUB3"
-          className="block bg-blue-600 text-white text-center py-2 rounded mt-4"
-        >
-          {" "}
-          Join Now
-        </Link>
-      </div> */}
-      {/*  Card 3 */}
-      <div className="bg-white border rounded-lg p-4">
-        <div className="flex items-center space-x-3 mb-2">
-          <div className="w-6 h-6 flex items-center justify-center rounded-full bg-blue-600 text-white text-sm font-medium">
-            2
-          </div>
-          <h3 className="text-lg font-bold">Kikoff </h3>
-        </div>{" "}
-        <img
-          src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQztNc8qSTDY-scnDxAPtJ-W1hLbDgnJgYmaVmivQesZxG3jr4q"
-          alt=""
-          className="w-40 h-15"
-        />
-        <p>
-          Kikoff helps build credit with no credit check, no interest, and no
-          predatory fees. It builds payment history and reports to credit
-          bureaus.
-        </p>
-        <Link
-          to="https://amol8a1p.com/?E=Ud0cIARHabGGlA%2fZi5%2fzjC9GOm3iJU0T&s1="
-          className="block bg-blue-600 text-white text-center py-2 rounded mt-4"
-        >
-          {" "}
-          Join Now
-        </Link>
-      </div>
+
       {/*  Card 4*/}
       <div className="bg-white border rounded-lg p-4">
         <div className="flex items-center space-x-3 mb-2">
           <div className="w-6 h-6 flex items-center justify-center rounded-full bg-blue-600 text-white text-sm font-medium">
-           
+            2
           </div>
           <h3 className="text-lg font-bold">Self Credit Builder </h3>
         </div>{" "}
@@ -109,6 +55,72 @@ const CreditScoreImprovement = () => {
           className="block bg-blue-600 text-white text-center py-2 rounded mt-4"
         >
           {" "}
+          Join Now
+        </Link>
+      </div>
+      {/* AA */}
+      <div className="bg-white border rounded-lg p-4  ">
+        <div className="flex items-center space-x-3 mb-2">
+          <div className="w-6 h-6 flex items-center justify-center rounded-full bg-blue-600 text-white text-sm font-medium">
+            3
+          </div>
+          <h3 className="text-lg font-bold">Kikoff</h3>
+        </div>
+
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9q5lQxOXRlomDLhyrlmlIRHFkyEeUjcmyaFLRvJbQ_xYzWCMA"
+          alt="Kikoff"
+          className="w-40 h-24"
+        />
+
+        <p className="mt-2 text-sm text-gray-700 leading-relaxed">
+          Kikoff users grow their credit
+          {/* First Disclaimer */}
+          <span className="group font-semibold cursor-pointer relative">
+            {" "}
+            +25 points in their first month
+            <span
+              className="absolute hidden group-hover:block
+    w-[260px] sm:w-[300px]
+    bg-white text-gray-700 text-xs font-normal
+    p-3 rounded-lg border shadow-lg
+    top-[-150px] left-[-40px]
+    z-20"
+            >
+              Average first-month credit score impact of +25 points
+              (VantageScore 3.0) between Jan-2024 & Nov-2024 for Kikoff Credit
+              Account users who started with a score below 600; who purchased at
+              least one item with Credit Account; and who paid one on-time in
+              their first month. Late payments may negatively impact your credit
+              score. Individual results may vary.
+            </span>
+          </span>{" "}
+          on average. No credit check, no interest, and no predatory fees.
+          Kikoff helps establish and build credit history and
+          {/* Second Disclaimer */}
+          <span className="relative group font-semibold cursor-pointer">
+            {" "}
+            reports to all three credit bureaus
+            <span
+              className="absolute hidden group-hover:block
+    w-[240px] sm:w-[260px]
+    bg-white text-gray-700 text-xs font-normal
+    p-3 rounded-lg border shadow-lg
+    bottom-full mb-2
+    left-1/2 -translate-x-1/2
+    z-10"
+            >
+              Features may vary depending on availability, location, &
+              plan/product purchase.
+            </span>
+          </span>
+          .
+        </p>
+
+        <Link
+          to="https://kikoff.pxf.io/19rYNz"
+          className="block bg-blue-600 text-white text-center py-2 rounded mt-4"
+        >
           Join Now
         </Link>
       </div>

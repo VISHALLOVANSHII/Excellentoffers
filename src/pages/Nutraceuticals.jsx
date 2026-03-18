@@ -5,7 +5,7 @@ const Nutraceuticals = () => {
   return (
     <>
       {/*  Card 1 */}
-      <div className="bg-white border rounded-lg p-4">
+      {/* <div className="bg-white border rounded-lg p-4">
         <div className="flex items-center space-x-3 mb-2">
           <div className="w-6 h-6 flex items-center justify-center rounded-full bg-blue-600 text-white text-sm font-medium">
             1
@@ -33,12 +33,12 @@ const Nutraceuticals = () => {
         >
           Join Now
         </Link>
-      </div>
+      </div> */}
       {/*  Card 2 */}
       <div className="bg-white border rounded-lg p-4">
         <div className="flex items-center space-x-3 mb-2">
           <div className="w-6 h-6 flex items-center justify-center rounded-full bg-blue-600 text-white text-sm font-medium">
-            2
+            1
           </div>
           <h3 className="text-lg font-bold">Instaflex</h3>
         </div>
@@ -60,8 +60,41 @@ const Nutraceuticals = () => {
           Join Now
         </Link>{" "}
       </div>
-      {/*  Card 3 */}
+      {/*  */}
       <div className="bg-white border rounded-lg p-4">
+        <div className="flex items-center space-x-3 mb-2">
+          <div className="w-6 h-6 flex items-center justify-center rounded-full bg-blue-600 text-white text-sm font-medium">
+            2
+          </div>
+          <h3 className="text-lg font-bold">Peptiva Probiotics</h3>
+        </div>
+        {/* <h3 className="text-lg font-bold mb-2">Instaflex</h3> */}
+        <img
+          src="https://m.media-amazon.com/images/S/abs-image-upload-na/1/AmazonStores/ATVPDKIKX0DER/4588327944da8193af3a17ff23eeba67.w552.h194.jpg"
+          alt=""
+          className="w-50 h-15"
+        />
+        <p>
+          Try Peptiva Probiotics risk-free and experience the difference in your
+          digestion and sleep. This doctor-formulated probiotic solution with
+          key botanical ingredients is designed to reduce bloating, support gut
+          balance, and promote more restful nights. Featuring clinically
+          validated key ingredient probiotic strains that survive stomach acid,
+          along with key ingredients that help support sleep, Peptiva works
+          while you rest. With no refrigeration required, it’s an easy way to
+          support your digestive health. Claim your limited 15-day trial today
+          and discover how better gut health can help you feel lighter, more
+          comfortable, and refreshed each morning.
+        </p>
+        <Link
+          to="https://www.peptivaprobiotics.com/trial/"
+          className="block bg-blue-600 text-white text-center py-2 rounded mt-4"
+        >
+          Join Now
+        </Link>{" "}
+      </div>
+      {/*  Card 3 */}
+      {/* <div className="bg-white border rounded-lg p-4">
         <div className="flex items-center space-x-3 mb-2">
           <div className="w-6 h-6 flex items-center justify-center rounded-full bg-blue-600 text-white text-sm font-medium">
             3
@@ -70,7 +103,6 @@ const Nutraceuticals = () => {
             Montezuma's Secret - Male Enhancement
           </h3>
         </div>
-        {/* <h3 className="text-lg font-bold mb-2">Instaflex</h3> */}
         <img
           src="https://supernaturalman.com/cdn/shop/files/SN_MontezumasSecret_2022_60ct.jpg?v=1691607151"
           alt=""
@@ -91,16 +123,15 @@ const Nutraceuticals = () => {
         >
           Join Now
         </Link>{" "}
-      </div>
+      </div> */}
       {/*  Card 4*/}
-      <div className="bg-white border rounded-lg p-4">
+      {/* <div className="bg-white border rounded-lg p-4">
         <div className="flex items-center space-x-3 mb-2">
           <div className="w-6 h-6 flex items-center justify-center rounded-full bg-blue-600 text-white text-sm font-medium">
             4
           </div>
           <h3 className="text-lg font-bold">Nugenix Total-T</h3>
         </div>
-        {/* <h3 className="text-lg font-bold mb-2">Instaflex</h3> */}
         <img
           src="https://images.hive.blog/0x0/https://steemitimages.com/DQmQRYYcsM8EU56Z4GhJ78jE2ReJanuX3oDteKF86j7ugbN/Nugenix_Testosterone_Bottle.png"
           alt=""
@@ -118,16 +149,15 @@ const Nutraceuticals = () => {
         >
           Join Now
         </Link>{" "}
-      </div>
+      </div> */}
       {/*  Card 5*/}
       <div className="bg-white border rounded-lg p-4">
         <div className="flex items-center space-x-3 mb-2">
           <div className="w-6 h-6 flex items-center justify-center rounded-full bg-blue-600 text-white text-sm font-medium">
-            5
+            3
           </div>
           <h3 className="text-lg font-bold"> Gluco Essence Blood Support</h3>
         </div>
-        {/* <h3 className="text-lg font-bold mb-2">Instaflex</h3> */}
         <img
           src="https://m.media-amazon.com/images/I/81RjbLoy7VL._AC_SL1500_.jpg"
           alt=""
@@ -151,11 +181,10 @@ const Nutraceuticals = () => {
       <div className="bg-white border rounded-lg p-4">
         <div className="flex items-center space-x-3 mb-2">
           <div className="w-6 h-6 flex items-center justify-center rounded-full bg-blue-600 text-white text-sm font-medium">
-            6
+            4
           </div>
           <h3 className="text-lg font-bold">HIMS Hair Loss Treatment </h3>
         </div>
-        {/* <h3 className="text-lg font-bold mb-2">Instaflex</h3> */}
         <img
           src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTMs7cYDQUjAZPCFk2e2y4pgqX7XB0avL8uIvUZE_05FZdiQWyP"
           alt=""
@@ -176,7 +205,7 @@ const Nutraceuticals = () => {
       </div>
 
       {/*  Card 7*/}
-      
+
       {/*  Card 8*/}
     </>
   );

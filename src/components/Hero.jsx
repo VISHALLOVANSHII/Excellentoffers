@@ -12,7 +12,7 @@ const Hero = () => {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: 'url("https://www.leadsnextech.com/_next/static/media/bg.153fe1e6.jpg")',
+            backgroundImage: 'url("https://www.indium.tech/wp-content/uploads/2025/04/Indian-Organizations-Tend-To-Follow-The-Global-Market-In-Adoption-Of-New-Tech.jpg")',
             filter: "brightness(0.4)",
           }}
         />

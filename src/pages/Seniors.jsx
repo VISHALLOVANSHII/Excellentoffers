@@ -19,7 +19,7 @@ const Seniors = () => {
           with automatic renewals.
         </p>
         <Link
-          to="https://www.keisuflate.com/BHQNJDPP/J4FMNNR/"
+          to="https://aarp.pxf.io/9VWPyY"
           className="block bg-blue-600 text-white text-center py-2 rounded mt-4"
         >
           Join Now

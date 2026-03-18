@@ -5,30 +5,28 @@ const Weightloss = () => {
   return (
     <>
       {/*  Card 1 */}
-    
- <div className="bg-white border rounded-lg p-4">
-  <div className="flex items-center space-x-3 mb-2">
-  <div className="w-6 h-6 flex items-center justify-center rounded-full bg-blue-600 text-white text-sm font-medium">
-    1
-  </div>
-  <h3 className="text-lg font-bold">Jenny Craig</h3>
-</div>
 
+      <div className="bg-white border rounded-lg p-4">
+        <div className="flex items-center space-x-3 mb-2">
+          <div className="w-6 h-6 flex items-center justify-center rounded-full bg-blue-600 text-white text-sm font-medium">
+            1
+          </div>
+          <h3 className="text-lg font-bold">Simple Weight Loss</h3>
+        </div>
 
         <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbndG0Yq-mSHOt0oNpcHqGWQ9CgXnvvum5NpeC_4HPJwge65Gc"
+          src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTTmpOw0ZK7vxofl14tmuVbtqpykYbzT4iOupYr6SJYue7rDhvN"
           alt=""
           className="w-40 h-25"
         />
 
         <p>
-          Get Jenny Craig food delivered to your home. Open your door to the new
-          Jenny Craig. Delicious, effective and more convenient than ever. Get
-          meals delivered 2 weeks at a time + great savings and benefits. Get
-          all your meals and snacks for as low as $112 per week.
+          Simplify the way you lose weight. Finally, a health journey that
+          actually feels good. Lasting results. Zero stress. Use the discount
+          code "MO60" for 60% off!
         </p>
         <Link
-          to="https://www.keisuflate.com/BHQNJDPP/K3S7BXX/"
+          to="https://monetisetrk4.co.uk/?a=26325&c=50889&s1="
           className="block bg-blue-600 text-white text-center py-2 rounded mt-4"
         >
           Join Now
@@ -36,7 +34,7 @@ const Weightloss = () => {
       </div>
 
       {/*  Card 2 */}
-<div className="bg-white border rounded-lg p-4 ">
+      {/* <div classNam e="bg-white border rounded-lg p-4 ">
 
 
     <div className="flex items-center space-x-3 mb-2">
@@ -59,11 +57,8 @@ const Weightloss = () => {
         >
           Join Now
         </Link>
-      </div>
+      </div> */}
 
-
-
-     
       {/*  Card 3 */}
       {/* <div className="bg-white border rounded-lg p-4">
    <h3 className="text-lg font-bold mb-2">Weight Loss Offer</h3>

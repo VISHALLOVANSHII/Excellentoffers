@@ -9,13 +9,14 @@ const topPicks = [
   "Debt Relief",
   "GLP-1 Medications",
   "Government Programs",
-  "Health & Wellness",
-  "Male Enhancement",
+  "Health & Beauty",
+  "Life Insurance",
+  "Male Enhancements",
   "Nutraceuticals",
   "Online Banking",
   "Personal Loan",
   "Seniors",
-  "Weight loss",
+  "Weight Loss",
 ];
 
 const PartnerOffers = () => {
