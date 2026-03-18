@@ -23,7 +23,7 @@ const Weightloss = () => {
         <p>
           Simplify the way you lose weight. Finally, a health journey that
           actually feels good. Lasting results. Zero stress. Use the discount
-          code "MO60" for 60% off!
+          code "MON" for 80% off!
         </p>
         <Link
           to="https://monetisetrk4.co.uk/?a=26325&c=50889&s1="
