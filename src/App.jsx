@@ -8,6 +8,8 @@ import ScrollToTop from "./components/ScrollToTop";
 import Footer from "./components/Footer";
 import PartnerOffers from "./pages/PartnerOffers";
 import Privacy from "./pages/Privacy";
+import TermsOfService from "./pages/TermsOfService";
+import RegistrationFlow from "./pages/RegistrationFlow";
 
 const App = () => {
   return (
@@ -21,8 +23,8 @@ const App = () => {
 
         <Route path="/partnerOffers" element={<PartnerOffers />} />
         <Route path="/privacy-policy" element={<Privacy />} />
-        {/* <Route path="/terms-of-use" element={<Terms />} /> */}
-        {/* <Route path="/newsletter" element={<Newsletter />} /> */}
+        <Route path="/terms-of-service" element={<TermsOfService />} />
+        <Route path="/registration" element={<RegistrationFlow />} />
       </Routes>
       <Footer />
     </Router>

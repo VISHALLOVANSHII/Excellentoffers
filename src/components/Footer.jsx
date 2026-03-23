@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -6,17 +7,20 @@ const Footer = () => {
       <div className="flex py-5 bg-cyan-950 m-auto text-white text-sm flex-col items-center border-t max-w-screen-xxl space-y-2">
         {/* Links Section */}
         <div className="flex gap-4 flex-wrap justify-center">
-          <a href="/privacy-policy" className="hover:text-cyan-400 transition">
+          <Link to="/privacy-policy" className="hover:text-cyan-400 transition">
             Privacy Policy
-          </a>
+          </Link>
           <span>|</span>
-          <a href="/terms-of-use" className="hover:text-cyan-400 transition">
-            Terms of Use
-          </a>
+          <Link
+            to="/terms-of-service"
+            className="hover:text-cyan-400 transition"
+          >
+            Terms of Service
+          </Link>
           <span>|</span>
-          <a href="/newsletter" className="hover:text-cyan-400 transition">
+          <Link to="/registration" className="hover:text-cyan-400 transition">
             Newsletter Opt-In
-          </a>
+          </Link>
         </div>
 
         {/* Copyright */}
